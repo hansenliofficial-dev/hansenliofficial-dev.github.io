@@ -1,0 +1,85 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Page background */
+body {
+  background: #f6f8fb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header (top hero section) */
+.page-header {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Title styling */
+.page-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Subtitle */
+.page-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Main content container */
+.main-content {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Section titles */
+.main-content h2 {
+  margin-top: 2.5rem;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+/* Project cards */
+.project-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Hover animation */
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks */
+pre, code {
+  background: #f1f5f9;
+  border-radius: 6px;
+}
+
+/* Footer spacing */
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
